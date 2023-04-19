@@ -7,7 +7,7 @@ import csv
 
 #csvpath = os.path.join("python-challenge-main","Pybank","Resources","budget_data.csv")
 
-csvpath =r"C:\Users\Albert Dudek\Workspace\python-challenge-main\PyBank\Resources\budget_data.csv"
+csvpath = r"C:\Users\Albert Dudek\Workspace\python-challenge-main\PyBank\Resources\budget_data.csv"
 
 
 
@@ -88,6 +88,25 @@ print(f"Total: ${totalrevenue}")
 print(f"Average Change: ${round(profit_loss_avg,2)}")
 print(f"Greatest Increase in Profits: {greatestprofit_increase[0]} (${greatestprofit_increase[1]})")
 print(f"Greatest Decrease in Profits: {greatestprofit_decrease[0]} (${greatestprofit_decrease[1]})")
+
+
+#Output text files
+
+with open("results.txt", "w") as f:
+    f.write("Financial Analysis")
+    f.write("\n")
+    f.write("----------------------------")
+    f.write("\n")
+    f.write(f"Total Months: {numberofmonths}")
+    f.write("\n")
+    f.write(f"Total: ${totalrevenue}")
+    f.write("\n")
+    f.write(f"Average Change: ${round(profit_loss_avg,2)}")
+    f.write("\n")
+    f.write(f"Greatest Increase in Profits: {greatestprofit_increase[0]} (${greatestprofit_increase[1]})")
+    f.write("\n")
+    f.write(f"Greatest Decrease in Profits: {greatestprofit_decrease[0]} (${greatestprofit_decrease[1]})")
+
 
 
 
