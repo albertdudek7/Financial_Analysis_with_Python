@@ -12,6 +12,12 @@ Ryan Freeman's comment on Slack to read file: csvpath = r"C:\Users\Albert Dudek\
 
 Additional help from Matthew Werth, tutor and we went over with open and making sure that it was opening the csv file properly.
 
+Side note the most challenging part of the assignment for me was to get the candidates printed properly.
+# probably the hardest part of the script for me was to print and display the candidates in order
+#after much trial and error I was able to get the appropriate text display, I realized I needed to index [candidatename] after candidate votes. Sigh of a relief
+        
+print(f"{candidatename}: {percentage_of_votes}% ({candidates_votes[candidatename]})")
+
 
 
 
