@@ -1,5 +1,4 @@
 #file that will run the main script for each analysis
-#file that will run the main script for each analysis
 #load csv libraries
 
 import csv
