@@ -10,7 +10,7 @@ import csv
 csvpath = r"C:\Users\Albert Dudek\Workspace\python-challenge-main\PyBank\Resources\budget_data.csv"
 
 
-
+output_path = os.path.join("analysis","results.txt")
 
 #define variables to store results
 
@@ -92,7 +92,7 @@ print(f"Greatest Decrease in Profits: {greatestprofit_decrease[0]} (${greatestpr
 
 #Output text files
 
-with open("results.txt", "w") as f:
+with open(output_path, "w") as f:
     f.write("Financial Analysis")
     f.write("\n")
     f.write("----------------------------")
