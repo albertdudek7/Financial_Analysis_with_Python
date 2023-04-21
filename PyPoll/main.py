@@ -110,7 +110,7 @@ print("---------------------------")
 #analysis\results.txt
 
 
-with open("election_results.txt","w") as f:
+with open("analysis\election_results.txt","w") as f:
     f.write("Election Results")
     f.write("\n")
     f.write("----------------------------")
