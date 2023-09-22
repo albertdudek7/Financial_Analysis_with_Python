@@ -1,6 +1,6 @@
 # Pybank
 
-In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
+You are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
 Your task is to create a Python script that analyzes the records to calculate each of the following values:
 
@@ -15,6 +15,9 @@ The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in profits (date and amount) over the entire period
 
 Your analysis should align with the following results:
+
+![image](https://github.com/albertdudek7/Financial_Analysis_with_Python/assets/127783844/8c529058-6894-421f-9b98-fcf8086cb1b2)
+
 
 Financial Analysis
 ----------------------------
